@@ -15,7 +15,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #0a0a0a;
   }
 }
 
@@ -25,6 +25,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
 /* Custom animations for playful UI */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
@@ -51,4 +52,14 @@ body {
 
 .animate-rotate-slow {
   animation: rotate-slow 10s linear infinite;
+=======
+.neon-red {
+  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000;
+  box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000;
+}
+
+.neon-white {
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+  box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+>>>>>>> 0b11e4e175a96f18405a55b929cb0d2f7a81cdf7
 }

@@ -1,13 +1,21 @@
+<<<<<<< HEAD
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
   provider = "prisma-client"
   output   = "../generated/prisma"
+=======
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+>>>>>>> 0b11e4e175a96f18405a55b929cb0d2f7a81cdf7
 }
 
 datasource db {
   provider = "sqlite"
+<<<<<<< HEAD
 }
 
 model User {
@@ -41,4 +49,7 @@ model Review {
   user      User     @relation(fields: [userId], references: [id])
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+=======
+
+>>>>>>> 0b11e4e175a96f18405a55b929cb0d2f7a81cdf7
 }
